@@ -4,7 +4,7 @@ Go 实现的跳表（p = 1/4，maxLevel = 32）：`Set` / `Get` / `Delete` / 范
 
 非并发安全；多 goroutine 请外加 `RWMutex`，或只插不删时再考虑无锁。
 
-配套文章：[跳表赢的不是好写：用 Go 实现 skiplist](https://seamonw.github.io/blog/2026/09/15/golang-skiplist/)
+配套文章：[Go 跳表的原理与实现](https://seamonw.github.io/blog/2026/09/15/golang-skiplist/)
 
 ```bash
 go get github.com/seamonw/skiplist
